@@ -53,6 +53,9 @@ static int compareEmployeeName(const void *targetPtr, PtrToConstEmployee tableVa
 
 }
 
+//----------------------------------------------------------------------------------------------------------------------------------
+
+
 static int compareEmployeeSalary(const void *targetPtr, PtrToConstEmployee tableValuePtr) 
 { 
 
