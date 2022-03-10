@@ -26,7 +26,7 @@ PtrToEmployee searchEmployeeByName(PtrToConstEmployee ptr, int tableSize, char *
 
     return NULL;
 }
-PtrToEmployee searchEmployeeByPhoneNumber(PtrToConstEmployee ptr, int tableSize, char *targetName)
+PtrToEmployee searchEmployeeByPhone(PtrToConstEmployee ptr, int tableSize, char *targetName)
 {
     const PtrToConstEmployee endPtr = ptr + tableSize;
 
